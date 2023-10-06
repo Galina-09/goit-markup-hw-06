@@ -10,6 +10,7 @@
   .container {
     max-width: 375px;
   }
+
   .benefits-icon {
     position: absolute;
     top: -9999px;
@@ -17,10 +18,24 @@
   }
 }
 
+@media only screen and (max-width: 767.98px) {
+  .header-list {
+    display: none;
+  }
+  .ul-address {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    padding: 0 108px;
+    max-width: 736px;
   }
 
   .benefits-list {
