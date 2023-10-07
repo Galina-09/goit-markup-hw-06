@@ -179,7 +179,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero.jpg);
+    url(../images/hero_mob.jpg);
   max-width: 1440px;
   margin: auto;
 }
@@ -588,7 +588,7 @@ input::placeholder {
 .subscribe-icon {
   top: 25%;
   margin-left: 16px;
-  fill: var(--color-white);
+  fill: var(--c-background-secondary0);
 }
 
 /*Modal*/

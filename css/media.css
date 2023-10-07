@@ -1,4 +1,6 @@
 /*Media*/
+
+/*MOBILE*/
 @media screen and (max-width: 374px) {
   .benefits-icon {
     position: absolute;
@@ -18,6 +20,19 @@
   }
 }
 
+@media only screen and(min-resolution:192dpi) {
+  .hero-section {
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_mob@2x.jpg);
+  }
+}
+
+/*TABLET*/
+
 @media only screen and (max-width: 767.98px) {
   .header-list {
     display: none;
@@ -26,7 +41,26 @@
     display: none;
   }
 }
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_tab.jpg);
+  }
+}
 
+@media only screen and(min-width: 768px) and (min-resolution:192dpi) {
+  .hero-section {
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_tab@2x.jpg);
+  }
 @media screen and (min-width: 768px) {
   .container {
     max-width: 736px;
@@ -61,11 +95,37 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+/*DESKTOP*/
+
+@media screen and (min-width: 1168px) {
   .container {
     max-width: 1158px;
     padding: 24px 0 24px;
   }
+
+  @media only screen and (min-width: 1168px) {
+    .hero-section {
+      max-width: 1440px;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero_desk.jpg);
+    }
+  }
+
+  @media only screen and(min-width: 1168px) and (min-resolution:192dpi) {
+  .hero-section {
+    
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_desk@2x.jpg);
+      max-width: 1440px;
+  }
+@media screen and (min-wid
+  
   .benefits-list {
     gap: 24px;
   }
