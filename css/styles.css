@@ -165,9 +165,6 @@ ul {
   padding-bottom: 16px;
 }
 
-.menu-icon {
-}
-
 /*hero section*/
 .hero-section {
   background-color: var(--c-background-hero);
@@ -460,9 +457,6 @@ ul {
   justify-content: center;
 }
 
-.footer-box {
-  /* margin-right: 120px; */
-}
 .footer-logo {
   display: block;
   color: var(--c-brand);
