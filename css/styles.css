@@ -296,7 +296,7 @@ ul {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
+  justify-content: center;
   gap: 72px;
 }
 
@@ -582,7 +582,7 @@ input::placeholder {
 .subscribe-icon {
   top: 25%;
   margin-left: 16px;
-  fill: var(--c-background-secondary0);
+  fill: var(--c-background-secondary);
 }
 
 /*Modal*/
