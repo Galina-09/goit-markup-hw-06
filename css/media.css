@@ -27,15 +27,13 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
-  .mobile-menu-btn {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 736px;
+  }
+
+  .mob-menu {
+    display: none;
   }
 
   .benefits-list {
