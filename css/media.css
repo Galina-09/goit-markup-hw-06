@@ -8,26 +8,15 @@
     left: -9999px;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
-    max-width: 375px;
+    max-width: 320px;
   }
 
   .benefits-icon {
     position: absolute;
     top: -9999px;
     left: -9999px;
-  }
-}
-
-@media only screen and(min-resolution:192dpi) {
-  .hero-section {
-    max-width: 768px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero_mob@2x.jpg);
   }
 }
 
@@ -47,15 +36,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .hero-section {
-    max-width: 768px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero_tab.jpg);
-  }
-
   .footer-box {
     margin-right: 24px;
     margin-bottom: 72px;
@@ -69,24 +49,12 @@
     gap: 24px;
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: start;
   }
 }
-
-@media only screen and(min-width: 768px) and (min-resolution: 192dpi) {
-  .hero-section {
-    max-width: 768px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero_tab@2x.jpg);
-  }
-}
-
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
 
   .mob-menu {
@@ -131,28 +99,7 @@
 @media screen and (min-width: 1168px) {
   .container {
     max-width: 1158px;
-    padding: 24px 0 24px;
-  }
-}
-@media only screen and (min-width: 1168px) {
-  .hero-section {
-    max-width: 1440px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero_desk.jpg);
-  }
-}
-
-@media only screen and(min-width: 1168px) and (min-resolution: 192dpi) {
-  .hero-section {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero_desk@2x.jpg);
-    max-width: 1440px;
+    padding: 0 15px;
   }
 }
 
@@ -215,6 +162,7 @@
   }
   .footer-box {
     margin-right: 120px;
+    margin-bottom: 0;
   }
   .subscribe {
     margin-left: 93px;
