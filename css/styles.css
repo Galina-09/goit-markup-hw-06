@@ -233,12 +233,13 @@ ul {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero_tab@2x.jpg");
+    padding: 188px 0;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .hero-section {
-    max-width: 1158px;
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -567,6 +568,13 @@ ul {
   justify-content: center;
 }
 
+.footer-box {
+  margin-bottom: 72px;
+}
+
+.footer-social {
+  margin-bottom: 72px;
+}
 .footer-logo {
   display: block;
   color: var(--c-brand);
@@ -604,7 +612,6 @@ ul {
   color: #ffffff;
   margin-bottom: 16px;
   text-align: center;
-  padding-top: 72px;
 }
 .footer-list-social {
   display: flex;
@@ -690,6 +697,7 @@ input::placeholder {
   border: none;
   border-radius: 4px;
   background-color: var(--c-brand);
+  margin: 0 auto;
 }
 .buttom-subscribe:hover {
   background-color: var(--c-hover);

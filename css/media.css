@@ -57,6 +57,9 @@
     max-width: 768px;
   }
 
+  .footer-container {
+    justify-content: start;
+  }
   .mob-menu {
     display: none;
   }
@@ -88,8 +91,12 @@
   .footer-container {
     padding-left: 108px;
   }
+  .footer-logo {
+    text-align: left;
+  }
 
   .footer-head {
+    text-align: left;
     padding-top: 0;
   }
 }
@@ -137,6 +144,7 @@
   .benefits-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 400;
   }
 
   .team-list {
